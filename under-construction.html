@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-size: 2em;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20vh;
+            overflow: hidden;
+        }
+        .color-transition {
+            background: linear-gradient(to right, #FF4500, #FF8C00, #FFD700, #ADFF2F, #00FF00, #87CEEB, #4169E1, #8A2BE2, #FF1493, #FF00FF, #7B68EE, #00CED1, #20B2AA, #7FFF00, #FFFF00, #FFA500, #FF6347, #00FA9A, #0000CD, #FF4500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% auto;
+            background-clip: text;
+            animation: colorChange 10s linear infinite;
+            user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -moz-user-select: none;
+        }
+        @keyframes colorChange {
+            0% { background-position: 0 0; }
+            100% { background-position: -200% 0; }
+        }
+        .button {
+            display: inline-block;
+            background-color: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            padding: 15px 25px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+            user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -moz-user-select: none;
+        }
+        .button:hover {
+            background-color: rgba(255,255,255,0.2);
+            color: #fff;
+        }
+    </style>
+    <script>
+        document.addEventListener('contextmenu', function (e) {
+          e.preventDefault();
+        }, false);
+    </script>
+</head>
+<body>
+    <div class="color-transition">
+        <h2>Under Construction</h2>
+    </div>
+    <a class="button" href="index.html">Back to Top Page</a>
+</body>
+<script src="./js/main.js"></script>
+</html>
